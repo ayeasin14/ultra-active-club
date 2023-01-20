@@ -1,0 +1,111 @@
+.profile-container {
+    background-color: #fff;
+    /* height: 1000px; */
+    padding: 10px 15px;
+    padding-bottom: 50px;
+    position: sticky;
+    top: 0;
+
+}
+
+.yeasin {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.yeasin-info h4,
+p {
+    margin: 0;
+}
+
+.yeasin img {
+    border-radius: 30%;
+    width: 50px;
+}
+
+.activity-main {
+    background-color: #f4efef;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+.activity-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.activity-container h2,
+p {
+    margin: 0;
+}
+
+.clr-gray {
+    color: #9a9a9a;
+}
+
+.break-container {
+    margin: 10px 0;
+    background-color: #f4efef;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.break-title {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.btn-bread {
+    border-radius: 40px;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+}
+
+.btn-bread:hover {
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}
+
+.visit-time {
+    padding: 0 30px;
+    background-color: #f4efef;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.break-time {
+    padding: 0 30px;
+    background-color: #f4efef;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-complete {
+    font-size: large;
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-complete:hover {
+    background-color: cadetblue;
+}

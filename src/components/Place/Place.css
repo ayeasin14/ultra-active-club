@@ -1,0 +1,34 @@
+.place-container {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px #929292;
+}
+
+.place-container img {
+    width: 250px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.place-info {
+    padding: 0 10px;
+    text-align: justify;
+}
+
+.btn-add-list {
+    height: 40px;
+    width: 100%;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-add-list:hover {
+    background-color: #5e5eab;
+}

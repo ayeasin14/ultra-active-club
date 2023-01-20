@@ -1,0 +1,47 @@
+.logo-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    /* justify-content: center; */
+}
+
+.Explore-bd {
+    font-size: x-large;
+    font-weight: 800;
+    color: #4512a9;
+}
+
+.Explore-bd:hover {
+    color: #856fb1;
+
+}
+
+.nav-container {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.logo {
+    width: 50px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.nav-container a {
+    text-decoration: none;
+    color: #033034;
+    margin-right: 5px;
+    font-weight: 500;
+    font-size: medium;
+    padding: 10px 20px;
+}
+
+.nav-container a:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}

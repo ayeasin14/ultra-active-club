@@ -1,0 +1,42 @@
+.footer {
+
+    padding: 50px 100px;
+    margin: 3rem auto;
+    background-color: #f4efef;
+}
+
+.question {
+    background-color: #3a88fc;
+    border-radius: 7px 7px 0 0;
+    padding: 0.7rem;
+}
+
+.question-answer {
+    padding: 2rem;
+    background-color: #9fbbd8;
+    box-shadow: 2px 3px 4px #929292;
+    border: none;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.answer {
+    background-color: rgb(231, 233, 233);
+    padding: 0.7rem;
+    border-radius: 0 0 7px 7px;
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 700px) {
+
+    .footer {
+        width: 100%;
+        margin: 3rem auto;
+        background-color: #f4efef;
+    }
+
+    .question-answer {
+        width: 90%;
+        margin: 10px;
+    }
+}
